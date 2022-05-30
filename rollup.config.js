@@ -8,7 +8,7 @@ import pkg from './package.json'
 export default {
   input: 'src/index.js',
   output: {
-    file: 'dist/bundle.js',
+    file: 'dist/bundle.min.js',
     format: 'cjs',
     exports: 'auto'
   },
