@@ -60,12 +60,12 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{ github.event.repository.name }}-${{ github.sha }}-${{ github.run_id }}-${{ github.job }}-results
-          path: build/lint-report
+          path: build/test-report
           retention-days: 3
       - name: Publish test results
         uses: EnricoMi/publish-unit-test-result-action@v1.27
         with:
-          files: build/lint-report/**/*.xml
+          files: build/test-report/**/*.xml
   
   release:
     needs: [lint, build, test]
