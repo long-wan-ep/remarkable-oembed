@@ -12,7 +12,7 @@ node {
 
   // Version of node to download and install (only used if download is true)
   // It will be unpacked in the workDir
-  version = '14.16.0'
+  version = '16.15.0'
 
   // Version of Yarn to use
   // Any Yarn task first installs Yarn in the yarnWorkDir
