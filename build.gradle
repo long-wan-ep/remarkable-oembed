@@ -83,5 +83,5 @@ task release(type: NpxTask) {
 
   dependsOn 'yarn_install'
 
-  args = ['npx release']
+  command = 'release'
 }
