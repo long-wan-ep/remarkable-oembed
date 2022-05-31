@@ -1,5 +1,5 @@
 {
-  "name": "remarkable-oembed",
+  "name": "@long-wan-ep/remarkable-oembed",
   "description": "Plugin for remarkable markdown parser for embedding rich media from external sites using oEmbed API and specs",
   "version": "0.0.0-semantic-release",
   "main": "src/index.js",
